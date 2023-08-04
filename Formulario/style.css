@@ -1,0 +1,90 @@
+*{
+    padding:  0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+     background:url(https://images.unsplash.com/photo-1691084041747-9cc0ade8ceda?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80);
+     background-size: cover;
+     background-repeat: no-repeat ;
+     color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    margin: 0 outo;
+    width:  100%;
+    height:  100%;
+    justify-content: center;
+     display:flex;
+    align-items: center;
+}
+
+body:hover{
+    background-image: url(https://images.unsplash.com/photo-1687804446688-d455c357385d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+
+    transition: all 0.5s;
+}
+
+  legend{
+    color:rgb(255, 255, 255);
+    margin-bottom: 10px;
+    display: fixed;
+    font-weight: 700;
+    padding-top: 23px;
+    
+    
+  }
+
+form{
+    margin-bottom: 20px;
+    margin-top: 70px;
+
+}
+
+
+ form fieldset{
+     height:  350px;
+     width:  300px;
+     background-color: rgba(134, 104, 143, 0.178);
+     backdrop-filter: blur(6px);
+     border: none;
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     align-items: center;
+     padding: 10px; 
+    justify-content: center;
+    border-radius: 6px;
+    box-shadow: 2px 3px 4px 3px rgba(0, 0, 0, 0.164);
+     
+    
+     
+ }
+
+  input{
+     height: 30px;
+     border-radius: 12px;
+     border: none;
+     padding: 8px;
+     outline: none;
+  }
+  input:hover{
+    transition:  all 0.5s;
+    background-color: black;
+    color:white; 
+  }
+
+  button{
+     background: transparent;
+     padding:  8px;
+     border-radius: 8px;
+     width: 100px;
+     border: none;
+     text-transform: capitalize;
+     color: white
+  }
+
+  button:hover{
+     transition:  all 0.5s;
+    color:rgba(190, 190, 190, 0.719)
+  }
